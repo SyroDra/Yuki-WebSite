@@ -15,6 +15,10 @@ html header h1 {
   font-size: 4rem;
 }
 
+html header nav {
+  padding-bottom: 20px;
+}
+
 html header nav ul {
   display: flex;
   justify-content: center;
@@ -31,6 +35,26 @@ html header nav ul li {
 
 html body {
   background-image: url(../img/stripes-light.png);
+}
+
+html body .self-introduction h2 {
+  text-align: center;
+  padding: 40px;
+  font-size: 2rem;
+  background-color: rgba(71, 71, 71, 0.322);
+}
+
+html body .self-introduction .Contents {
+  padding: 30px;
+  display: flex;
+}
+
+html body .self-introduction .Contents p img {
+  border-radius: 50%;
+}
+
+html body .self-introduction .Contents .self-text {
+  padding: 80px 30px;
 }
 
 html footer {
