@@ -1,0 +1,41 @@
+html {
+  width: 940px;
+  margin: 0 auto;
+  background-image: url(../img/prism.png);
+}
+
+html header {
+  background-image: url(../img/memphis-mini.png);
+}
+
+html header h1 {
+  font-family: "DotGothic16", sans-serif;
+  text-align: center;
+  padding: 20px;
+  font-size: 4rem;
+}
+
+html header nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+html header nav ul li {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 1.5rem;
+  padding: 15px 25px;
+  background-color: #d4efff;
+  border-radius: 10px 10px 10px 10px;
+  margin: 0px 10px;
+}
+
+html body {
+  background-image: url(../img/stripes-light.png);
+}
+
+html footer {
+  background-image: url(../img/houndstooth-pattern.png);
+  text-align: center;
+  padding: 20px;
+}
+/*# sourceMappingURL=style.css.map */
