@@ -1,0 +1,65 @@
+html {
+  width: 940px;
+  margin: 0 auto;
+  background-image: url(../img/prism.png);
+}
+
+html header {
+  background-image: url(../img/memphis-mini.png);
+}
+
+html header h1 {
+  font-family: "DotGothic16", sans-serif;
+  text-align: center;
+  padding: 20px;
+  font-size: 4rem;
+}
+
+html header nav {
+  padding-bottom: 20px;
+}
+
+html header nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+html header nav ul li {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 1.5rem;
+  padding: 15px 25px;
+  background-color: #d4efff;
+  border-radius: 10px 10px 10px 10px;
+  margin: 0px 10px;
+}
+
+html body {
+  background-image: url(../img/stripes-light.png);
+}
+
+html body .self-introduction h2 {
+  text-align: center;
+  padding: 40px;
+  font-size: 2rem;
+  background-color: rgba(71, 71, 71, 0.322);
+}
+
+html body .self-introduction .Contents {
+  padding: 30px;
+  display: flex;
+}
+
+html body .self-introduction .Contents p img {
+  border-radius: 50%;
+}
+
+html body .self-introduction .Contents .self-text {
+  padding: 80px 30px;
+}
+
+html footer {
+  background-image: url(../img/houndstooth-pattern.png);
+  text-align: center;
+  padding: 20px;
+}
+/*# sourceMappingURL=style.css.map */
