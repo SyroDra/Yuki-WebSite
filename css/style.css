@@ -65,6 +65,37 @@ html body #self-introduction .Contents .self-text {
   font-size: 1.2rem;
 }
 
+html body #add-self-introduction h2 {
+  text-align: center;
+  padding: 40px;
+  font-size: 2rem;
+  background-color: rgba(71, 71, 71, 0.322);
+}
+
+html body #add-self-introduction dl {
+  padding: 20px;
+}
+
+html body #add-self-introduction dl dt {
+  font-size: 1.2rem;
+  background-color: rgba(110, 110, 110, 0.5);
+  padding: 10px 20px;
+}
+
+html body #add-self-introduction dl dd {
+  font-size: 1.1rem;
+  background-color: rgba(224, 224, 224, 0.685);
+  margin: 0px 0px 50px 0px;
+  padding: 10px 30px;
+}
+
+html body #DISCORD-Introduction h2 {
+  text-align: center;
+  padding: 40px;
+  font-size: 2rem;
+  background-color: rgba(71, 71, 71, 0.322);
+}
+
 html body #SNS h2 {
   text-align: center;
   padding: 40px;
