@@ -65,6 +65,30 @@ html body #self-introduction .Contents .self-text {
   font-size: 1.2rem;
 }
 
+html body #SNS h2 {
+  text-align: center;
+  padding: 40px;
+  font-size: 2rem;
+  background-color: rgba(71, 71, 71, 0.322);
+}
+
+html body #SNS ul {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+html body #SNS ul li {
+  padding: 10px 40px;
+}
+
+html body #SNS ul li h3 {
+  text-align: center;
+  padding: 10px 0px;
+  background-color: cornflowerblue;
+}
+
 html footer {
   background-image: url(../img/houndstooth-pattern.png);
   text-align: center;

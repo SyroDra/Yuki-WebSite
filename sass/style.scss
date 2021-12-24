@@ -56,6 +56,28 @@ html {
         }
       }
     }
+    #SNS {
+      h2 {
+        text-align: center;
+        padding: 40px;
+        font-size: 2rem;
+        background-color: rgba(71, 71, 71, 0.322);
+      }
+      ul {
+        padding: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        li {
+          padding: 10px 40px;
+          h3 {
+            text-align: center;
+            padding: 10px 0px;
+            background-color: cornflowerblue;
+          }
+        }
+      }
+    }
   }
   footer {
     background-image: url(../img/houndstooth-pattern.png);
