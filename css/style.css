@@ -91,9 +91,37 @@ html body #add-self-introduction dl dd {
 
 html body #DISCORD-Introduction h2 {
   text-align: center;
-  padding: 40px;
+  padding: 30px;
   font-size: 2rem;
   background-color: rgba(71, 71, 71, 0.322);
+}
+
+html body #DISCORD-Introduction h3 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 20px;
+}
+
+html body #DISCORD-Introduction ul {
+  display: flex;
+}
+
+html body #DISCORD-Introduction ul li {
+  margin: 0px 20px;
+}
+
+html body #DISCORD-Introduction ul li p {
+  padding-top: 50px;
+}
+
+html body #DISCORD-Introduction h3:nth-of-type(2) {
+  background-color: #82e029;
+  margin: 40px;
+  transition: 0.5s;
+}
+
+html body #DISCORD-Introduction h3:nth-of-type(2):hover {
+  background-color: #0ea700;
 }
 
 html body #SNS h2 {
